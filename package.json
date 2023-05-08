@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watchAll --coverage",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "zip": "git archive --format zip --output ./zipfile.zip master"
   },
   "dependencies": {
     "clsx": "^1.2.1",
